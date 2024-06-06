@@ -1,0 +1,41 @@
+.header-post-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(42, 49, 244);
+}
+
+.header-post-title:hover{
+    color:blueviolet;
+}
+
+.comment-name:hover{
+    color: brown;
+}
+
+.react-icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 40px;
+}
+.react-icons button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.react-icons img{
+    width: 50px;
+    height: 50px;
+}
+
+.greyscale img{
+    filter: grayscale(80%);
+}
+
+.greyscale img:hover{
+    filter: grayscale(0%);
+}
